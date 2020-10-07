@@ -1,12 +1,9 @@
-import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+import React, { useState } from 'react'
 import randomColor from  'randomcolor'
 
-export default function Playground(){
+export default function Playground() {
+  const [count, setCount] = useState(0)
   return (
-    <>
-      <div className="playground">
-        Welcome to your coloring space!
-      </div>
-    </>
+  <div>{count}</div>
   )
 }

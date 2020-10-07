@@ -2,7 +2,7 @@
   "name": "mycoloringspace",
   "version": "1.0.0",
   "description": "A small project to create a coloring page while practising react hooks",
-  "main": "server/index.js",
+  "main": "./Server/index.js",
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
     "dev": "run-p dev:client dev:server",
