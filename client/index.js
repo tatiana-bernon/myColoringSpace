@@ -1,6 +1,6 @@
 import React from 'react'
-import Paint from './components/Paint'
+import App from './component/app'
 
 export default function App() {
-  return <Paint />
+  return <App />
 }
