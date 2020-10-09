@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './app'
-import Playground from './Playground'
- 
-ReactDOM.render(<App />, document.getElementById('root'))
+import App from './components/App'
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+  )
+})
