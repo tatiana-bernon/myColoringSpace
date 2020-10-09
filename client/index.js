@@ -1,6 +1,6 @@
 import React from 'react'
-import App from './component/app'
-
-export default function App() {
-  return <App />
-}
+import ReactDOM from 'react-dom'
+import App from './app'
+import Playground from './Playground'
+ 
+ReactDOM.render(<App />, document.getElementById('root'))
