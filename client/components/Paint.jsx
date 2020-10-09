@@ -16,6 +16,9 @@ export default function paint () {
     })
 }
 useEffect(getColors, [])
+
+const headerRef = useRef({ offsetHeight: 0 })
+
 return (
   <header style={{ borderTop: `10px solid ${activeColor}`}}>
     <div className="app">
